@@ -1,0 +1,41 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding: 10px 0 20px 0;
+}
+
+h2 {
+    text-align: center;
+}
+
+.itemHome {
+    flex: 1;
+    text-align: justify;
+    hyphens: auto;
+    max-width: 360px;
+}
+
+.bulletpoints li {
+    padding-bottom: 10px;
+}
+
+@media all and (min-width: 750px) {
+    .home {
+        flex-direction: row;
+    }
+
+    h2 {
+        text-align: start;
+    }
+}
+
+@media all and (min-width: 900px) {
+    .itemHome {
+        max-width: 500px;
+    }
+}
+
