@@ -4,18 +4,22 @@
     background-color: #140a00d2;
     color: #c8c8c8;
     width: 100%;
-    padding: 40px 0 10px 0;
+    padding: 20px 0 10px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 0px;
 }
 
 .itemHeader {
-    text-align: center;
+    margin: auto;
 }
 
 h1 {
     font-size: 72px;
     font-weight: 500;
     letter-spacing: 1px;
-    line-height: 0px;
     font-family: 'Nanum Pen Script', cursive;
 }
 
@@ -37,4 +41,29 @@ h1 {
 .menu li a:hover {
     text-decoration: underline;
 }
-  
+
+@media all and (min-width: 800px) {
+    .header {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 20px 0 0px 0;
+    }
+
+    .itemHeader {
+        margin: 0;
+    }
+
+    h1 {
+        font-size: 90px;
+    }
+
+    .menu {
+        justify-content: flex-end;
+        margin: 0;
+    }
+
+    .menu li a {
+        font-size: 18px;
+        padding: 0 20px 0 0;
+    }
+}

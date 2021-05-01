@@ -1,5 +1,4 @@
 .about {
-    /* background-color: #a3a2a0; */
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -7,6 +6,13 @@
     width: 80%;
     margin: auto;
     padding: 20px 0 20px 0;
+}
+
+.title {
+    font-size: 1.5em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
 
 .itemAbout {
@@ -21,13 +27,9 @@
     hyphens: auto;
 }
 
-@media all and (min-width: 750px) {
+@media all and (min-width: 800px) {
     .about {
         flex-direction: row;
-    }
-
-    h2 {
-        text-align: start;
     }
 }
 

@@ -1,15 +1,27 @@
 .contact {
     background-color: #a3a2a0;
     padding: 20px 0 30px 0;
+}
+
+.title {
+    font-size: 1.5em;
+    padding-bottom: 30px;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+.groupContact {
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
   
   .itemContact {
-    display: block;
     margin: auto;
-    max-width: 400px;
+    max-width: 380px;
     width: 80%;
     margin-bottom: 30px;
   }
@@ -27,4 +39,19 @@
   
   form textarea {
     height: 80px;
+  }
+
+  @media all and (min-width: 800px) {
+    h2 {
+      padding-bottom: 50px;
+    }
+  
+    .groupContact {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+
+    .itemContact {
+      margin: 0;
+    }
   }

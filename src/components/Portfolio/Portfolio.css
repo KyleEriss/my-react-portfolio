@@ -3,16 +3,20 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 80%;
+    margin: auto;
 }
 
-h2 {
+.title {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
     text-align: center;
 }
 
 .itemPortfolio {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     padding-bottom: 30px;
     text-align: justify;
     hyphens: auto;
@@ -26,41 +30,59 @@ h2 {
 }
 
 .portfolioItemFlex {
-    width: 250px;
+    max-width: 250px;
 }
 
 @media all and (min-width: 450px) {
 
     img.imgPortfolio {
-        width: 300px;
-        height: 172px;
+        width: 335px;
+        height: 192px;
     }
 
     .portfolioItemFlex {
-        width: 300px;
+        flex: 1;
+        max-width: 335px;
     }
 }
 
 
-@media all and (min-width: 915px) {
+@media all and (min-width: 900px) {
 
-    /* .itemPortfolio {
-        display: block;
-        margin: 0;
-      } */
+    img.imgPortfolio {
+        width: 335px;
+        height: 192px;
+    }
     
     .portfolioFlex {
         display: flex;
-        direction: row;
+        flex-direction: row;
+        align-items: center;
     }
     
     .portfolioItemFlex {
-        flex: 1;
+        display: block;
     }
     
     .portfolioItemFlex {
-        width: 400px;
+        max-width: 400px;
     }
   
 }
-  
+
+@media all and (min-width: 1400px) {
+
+    .portfolioFlex {
+        display: block;
+    }
+    
+    .groupPortfolio {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .itemPortfolio {
+        max-width: 335px;
+        padding: 0 40px 0 40px;
+    }
+}
