@@ -47,7 +47,7 @@
 }
 
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 1000px) {
 
     img.imgPortfolio {
         width: 335px;
