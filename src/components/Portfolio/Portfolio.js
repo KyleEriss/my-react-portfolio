@@ -32,7 +32,7 @@ export default class Portfolio extends Component {
                                     <div className='portfolioText'>
                                         <p>
                                             The Recipro web app lets users explore recipes based on ingredients they have on hand. Users can also
-                                            save any of the recipes to their own personalized list. Feel free to check out the html and css pages
+                                            save any of the recipes to their own personalized list. Feel free to check it out 
                                             on <a href='https://github.com/KyleEriss/recipro-client' target='_blank'>GitHub</a>
                                         </p>
                                         <p>Tech used: React, Node, Express, PostgreSQL, JWTs for authorization, and CSS animations</p>
