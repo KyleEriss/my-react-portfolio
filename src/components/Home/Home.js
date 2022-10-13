@@ -1,6 +1,6 @@
 import { React, Component } from 'react';
 import './Home.css';
-import GitHubProfilePic from '../../images/GitHubProfilePic.jpg'
+import YosemiteProfile from '../../images/YosemiteProfile.JPG';
 
 export default class Home extends Component {
     render() {
@@ -9,7 +9,7 @@ export default class Home extends Component {
                 <div className='home'>
 
                     <div className='itemHome'>
-                        <img src={GitHubProfilePic} className='profilePictures' />
+                        <img src={YosemiteProfile} className='profilePictures' />
                     </div>
 
                     <div className='itemHome'>
