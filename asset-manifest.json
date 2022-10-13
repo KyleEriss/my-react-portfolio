@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.398db63a.chunk.css",
-    "main.js": "/my-react-portfolio/static/js/main.e1e7eab3.chunk.js",
-    "main.js.map": "/my-react-portfolio/static/js/main.e1e7eab3.chunk.js.map",
+    "main.js": "/my-react-portfolio/static/js/main.fe4bd9aa.chunk.js",
+    "main.js.map": "/my-react-portfolio/static/js/main.fe4bd9aa.chunk.js.map",
     "runtime-main.js": "/my-react-portfolio/static/js/runtime-main.a7ee924e.js",
     "runtime-main.js.map": "/my-react-portfolio/static/js/runtime-main.a7ee924e.js.map",
     "static/js/2.c889052f.chunk.js": "/my-react-portfolio/static/js/2.c889052f.chunk.js",
@@ -12,8 +12,8 @@
     "index.html": "/my-react-portfolio/index.html",
     "static/css/main.398db63a.chunk.css.map": "/my-react-portfolio/static/css/main.398db63a.chunk.css.map",
     "static/js/2.c889052f.chunk.js.LICENSE.txt": "/my-react-portfolio/static/js/2.c889052f.chunk.js.LICENSE.txt",
-    "static/media/GitHubProfilePic.146ff519.jpg": "/my-react-portfolio/static/media/GitHubProfilePic.146ff519.jpg",
     "static/media/SoundScout2.3878a8cf.png": "/my-react-portfolio/static/media/SoundScout2.3878a8cf.png",
+    "static/media/YosemiteProfile.d42c4b9e.JPG": "/my-react-portfolio/static/media/YosemiteProfile.d42c4b9e.JPG",
     "static/media/otto2.e677ffd9.JPG": "/my-react-portfolio/static/media/otto2.e677ffd9.JPG",
     "static/media/popupshop.063a291c.jpg": "/my-react-portfolio/static/media/popupshop.063a291c.jpg",
     "static/media/recipro.a3d32f63.jpg": "/my-react-portfolio/static/media/recipro.a3d32f63.jpg",
@@ -23,6 +23,6 @@
     "static/js/runtime-main.a7ee924e.js",
     "static/js/2.c889052f.chunk.js",
     "static/css/main.398db63a.chunk.css",
-    "static/js/main.e1e7eab3.chunk.js"
+    "static/js/main.fe4bd9aa.chunk.js"
   ]
 }
