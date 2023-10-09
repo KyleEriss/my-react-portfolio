@@ -4,6 +4,7 @@ import recipro from "../../images/recipro.jpg";
 import reconnaissound from "../../images/reconnaissound.jpg";
 import popupshop from "../../images/popupshop.jpg";
 import SoundScout from "../../images/SoundScout2.png";
+import ThreeDMbtaMap from "../../images/3dmbtascreenshot.png";
 
 export default class Portfolio extends Component {
   render() {
@@ -24,16 +25,16 @@ export default class Portfolio extends Component {
 
               <div className="portfolioFlex">
                 <div className="portfolioItemFlex">
-                  <img src={popupshop} className="imgPortfolio" />
+                  <img src={ThreeDMbtaMap} className="imgPortfolio" />
                 </div>
 
                 <div className="portfolioItemFlex">
                   <div className="portfolioText">
                     <p>
-                      This app uses a WebGL Overlay View to render 3D markers
-                      representing MBTA subway/commuter cars, and is updated
-                      real-time. The server is provisioned using an EC2 instance
-                      to support the event stream. Check it out on{" "}
+                      The 3D MBTA Map renders every MBTA subway
+                      car as a 3D marker in Google Maps, and is updated via a real-time stream.
+                      The server is provisioned on EC2 and uses Load
+                      Balancing to horizontally scale. Check it out on{" "}
                       <a
                         href="https://github.com/KyleEriss/3D-MBTA-Subway-Tracker-Map"
                         target="_blank"
@@ -42,8 +43,9 @@ export default class Portfolio extends Component {
                       </a>
                     </p>
                     <p>
-                      Tech used: JS, Node, Express, WebGL, Server-Sent Events,
-                      AWS EC2
+                      Tech used: JS, TypeScript Node, Express, WebGL, Three.js,
+                      Server-Sent Events, AWS (EC2, Load Balancers, and Auto
+                      Scaling Groups)
                     </p>
                   </div>
                 </div>
