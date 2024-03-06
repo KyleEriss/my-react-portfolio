@@ -55,7 +55,7 @@ export default class Portfolio extends Component {
             <div className="itemPortfolio">
               <div className="portfolioTitle">
                 <p>
-                  <a href="https://recipro-client.vercel.app/" target="_blank">
+                  <a href="https://reciproapp.com/" target="_blank">
                     Recipro
                   </a>
                 </p>
@@ -93,7 +93,7 @@ export default class Portfolio extends Component {
               <div className="portfolioTitle">
                 <p>
                   <a
-                    href="https://reconnaissound-client.vercel.app/"
+                    href="https://reconnaissound.com/"
                     target="_blank"
                   >
                     Reconnaissound
