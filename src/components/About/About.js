@@ -10,13 +10,13 @@ export default class About extends Component {
           <div className="itemAbout">
             <div className="title">About Kyle</div>
               I'm driven by the challenge of solving complex technical problems
-              and creating impactful solutions. With a background in full stack
+              and discovering creative solutions. With a background in full stack
               development and data engineering, I thrive in dynamic environments
               where I can apply my skills to drive innovation.
             <p>
               Software development with a customer-centric approach is my focus, and I'm committed to
               leveraging technology to create a positive experience for users.
-              I'm excited to collaborate with like-minded professionals who
+              I'm excited to collaborate with like-minded developers who
               share a similar drive to innovate and make a meaningful impact in
               the digital space.
             </p>
